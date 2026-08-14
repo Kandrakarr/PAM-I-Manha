@@ -16,6 +16,11 @@ export default function StackNavigator(){
                 component={Login}
                 />
 
+                <Stack.Screen
+                name='Home'
+                component={Home}
+                />
+
 
             </Stack.Navigator>
         </NavigationContainer>
